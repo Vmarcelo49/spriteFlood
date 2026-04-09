@@ -39,7 +39,7 @@ func run(cfg core.Config) error {
 	if hasGopher {
 		defer rl.UnloadTexture(gopher)
 	}
-	useGopher := hasGopher
+	useGopher := false
 
 	var updateMSAvg float64
 	var drawMSAvg float64

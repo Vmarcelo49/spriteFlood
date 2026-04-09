@@ -81,7 +81,7 @@ func run(cfg core.Config) error {
 	if hasGopher {
 		defer gopherTexture.Destroy()
 	}
-	useGopher := hasGopher
+	useGopher := false
 
 	hudTexture, err := renderer.CreateTexture(uint32(sdl.PIXELFORMAT_RGBA32), sdl.TEXTUREACCESS_STREAMING, hudWidth, hudHeight)
 	if err != nil {

@@ -14,9 +14,12 @@ The player uses the gamepad left analog stick to pull falling sprites to the tar
 
 ## Run
 
-Ebiten:
+go run -tags ebiten ./cmd/ebiten
 
-go run ./cmd/ebiten
+go run -tags raylib ./cmd/raylib
+
+go run -tags sdl2 ./cmd/sdl2
+
 
 ## Controls
 

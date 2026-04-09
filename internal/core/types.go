@@ -11,9 +11,9 @@ const (
 
 func (s Side) String() string {
 	if s == SideLeft {
-		return "ESQUERDA"
+		return "LEFT"
 	}
-	return "DIREITA"
+	return "RIGHT"
 }
 
 type Sprite struct {
